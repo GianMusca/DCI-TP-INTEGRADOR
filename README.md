@@ -1,44 +1,21 @@
-## Trabajo práctico INTEGRADOR de la asignatura DCI ##
+# Trabajo práctico INTEGRADOR de la asignatura DCI
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX (Debe aclarar la función y el objetivo del cto.)
+* Autor: Gianfranco Muscariello
+* Título corto del trabajo: Réplica de módulo FT232H con conectores SPI e I²C
+* Descripción: El trabajo consiste en diseñar en KiCad una réplica del módulo Adafruit FT232H. La placa permitirá conectar una computadora por USB-C con dispositivos SPI o I²C. Los cambios de encapsulado facilitarán la soldadura, la inspección y el retrabajo, y los conectores dedicados simplificarán el cableado.
 * Cursada: OCT-NOV-DIC 2026
 
 
 ## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+La réplica se documenta bajo Creative Commons Atribución-CompartirIgual 3.0 Unported (CC BY-SA 3.0), la misma licencia del diseño de referencia. El diseño original es de Limor Fried (Ladyada) para Adafruit Industries. Las fotografías, el esquemático de referencia y las hojas de datos se identifican con sus fuentes respectivas. [Texto de la licencia](LICENSE) · [Proyecto original de Adafruit](https://github.com/adafruit/Adafruit-FT232H-Breakout-PCB).
+
 
 ## Estructura del TP INTEGRADOR ##
 
-Se propone y se pide utilizar la siguiente estructura.
-
-* doc: Toda la información sobre el circuito, principalmente de autoría o procesamiento propio. Por ejemplo:
-  * Notas de ingeniería propias.
-  * Notas de aplicación propias.
-  * Estudios previos, estado del arte, resumen de las investigaciones.
-  * Notas con cálculos.
-  * Dibujos adicionales.
-  * Fotos de los prototipos.
-  * Presupuestos, cotizaciones.
-* info: Toda la iformación recolectada, principalmente de terceros, como por ejemplo:
-  * Hojas de datos.
-  * Notas de aplicación.
-  * Info de productos comerciales.
-  * Info en internet.
-* pcb: Archivos de diseño esquemático y pcb.
-
-Dependiendo la magnitud del proyecto, tendremos más o menos información en estos directorios. 
-Revisar los README.md en cada directorio para conocer las pautas de cada uno para este TP.
-
-NOTA: El alumno puede y debe borrar de este archivo todo lo que considere necesario, por ejemplo las aclaraciones del docente y esta misma nota.
-
-## Obligatorios para el TP INTEGRADOR ##
-* doc/propuesta/README.md (con textos y links, formato markdown, a imágenes que deben estar en el mismo repo. Las imágenes son las que se piden en las pautas de TP).
-* info/*.pdf (Se piden solo las hojas de datos de los componentes relevantes como circuitos integrados, conectores particulares, módulos, etc. No es necesario poner hojas de pasivos, discretos comunes, conectores estándar.)
-* pcb/* (Acá va el proyecto KiCad, modelos 3D, bibliotecas particulares y archivos generados como BOM, gerbers, etc.). EVITE subir al git archivos temporales de KiCad. Se recomienda usar un .gitignore adecuado.
-* El alumnos es libre de agregar otras cosas, pero siempre tenga en cuenta que el repositorio es público. Evitar colocar información personal o documentación confidencial. 
+| Carpeta | Contenido |
+| --- | --- |
+| [`doc/`](doc/README.md) | Documentación del trabajo. |
+| [`doc/propuesta/`](doc/propuesta/README.md) | Propuesta, fotos del módulo y esquemático de referencia. |
+| [`info/`](info/README.md) | Hojas de datos de los componentes principales. |
+| [`pcb/`](pcb/README.md) | Proyecto KiCad. |

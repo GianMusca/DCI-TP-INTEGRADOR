@@ -1,9 +1,5 @@
-## Archivos Kicad ##
+# Proyecto KiCad
 
-En este directorio debería ir:
+El TP está en la etapa de propuesta. En esta carpeta se incorporarán el proyecto, el esquemático y el PCB de la réplica, junto con las bibliotecas y modelos 3D específicos que se necesiten.
 
-* Archivos de proyecto.
-* Esquemático.
-* PCB.
-* Modelos  3D (subcarpeta)
-* Bibliotecas de símbolos y huellas externas (si son necesarios y preferentemente en subcarpetas).
+El esquemático de la placa comercial está en la [propuesta](../doc/propuesta/README.md).
