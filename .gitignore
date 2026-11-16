@@ -1,0 +1,7 @@
+
+# Archivos locales y copias de seguridad de KiCad
+.history
+*.kicad_prl
+*.bak
+*-backups/
+~*.lck
